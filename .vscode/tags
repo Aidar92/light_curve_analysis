@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+data_analysis.py	../data_analysis.py	1;"	kind:file	line:1
+df	../data_analysis.py	/^df = pd.read_table("2253.txt").filter(items=["#JD", freq, sgm]).dropna()$/;"	kind:variable	line:11
+freq	../data_analysis.py	/^freq = "21.7"$/;"	kind:variable	line:9
+george	../data_analysis.py	/^import george$/;"	kind:namespace	line:1
+gp	../data_analysis.py	/^gp = george.GP(kernel)$/;"	kind:variable	line:17
+grad_neg_ln_like	../data_analysis.py	/^def grad_neg_ln_like(p):$/;"	kind:function	line:27
+kernel	../data_analysis.py	/^kernel = np.var(y) * kernels.ExpSquaredKernel(0.5)$/;"	kind:variable	line:16
+kernels	../data_analysis.py	/^from george import kernels$/;"	kind:namespace	line:5
+matplotlib	../data_analysis.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+neg_ln_like	../data_analysis.py	/^def neg_ln_like(p):$/;"	kind:function	line:23
+np	../data_analysis.py	/^import numpy as np$/;"	kind:namespace	line:4
+op	../data_analysis.py	/^import scipy.optimize as op$/;"	kind:namespace	line:6
+pd	../data_analysis.py	/^import pandas as pd$/;"	kind:namespace	line:2
+plt	../data_analysis.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+result	../data_analysis.py	/^result = op.minimize(neg_ln_like, gp.get_parameter_vector(), jac=grad_neg_ln_like)$/;"	kind:variable	line:31
+scipy	../data_analysis.py	/^import scipy.optimize as op$/;"	kind:namespace	line:6
+sgm	../data_analysis.py	/^sgm = "sgm21"$/;"	kind:variable	line:10
+x	../data_analysis.py	/^x = df["#JD"].as_matrix(columns=None)$/;"	kind:variable	line:13
+x_pred	../data_analysis.py	/^x_pred = np.linspace(x[0],x[-1], x[-1]*10) $/;"	kind:variable	line:19
+y	../data_analysis.py	/^y = df[freq].as_matrix(columns=None)$/;"	kind:variable	line:14
+yerr	../data_analysis.py	/^yerr = df[sgm].as_matrix(columns=None)$/;"	kind:variable	line:15
