@@ -1,4 +1,4 @@
-#light_curve_analysis
+# light_curve_analysis
 
 Python script for building a gaussian regression model for blazar's light curve.
 
